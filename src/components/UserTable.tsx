@@ -63,14 +63,10 @@ const UserTable = () => {
             </tr>
           </thead>
           <tbody>
-            {users.map((user, index) => (
+            {users.map((user) => (
               <tr
                 key={user.id}
-                className={`hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-colors duration-150 ease-in-out ${
-                  index % 2 === 0
-                    ? "bg-white dark:bg-gray-800"
-                    : "bg-gray-50 dark:bg-gray-750"
-                }`}
+                className="hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-colors duration-150 ease-in-out bg-white dark:bg-gray-800"
               >
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white border-b border-r border-gray-200 dark:border-gray-700">
                   {user.id}

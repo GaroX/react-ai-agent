@@ -24,6 +24,11 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    
+    env:
+      VITE_AUTH0_DOMAIN: ${{ vars.VITE_AUTH0_DOMAIN }}
+      VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
+
     steps:
       - uses: actions/checkout@v4
 
