@@ -24,11 +24,6 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    
-    env:
-      VITE_AUTH0_DOMAIN: ${{ vars.VITE_AUTH0_DOMAIN }}
-      VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
-
     steps:
       - uses: actions/checkout@v4
 
@@ -36,7 +31,16 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Debug env
+        run: |
+          echo "VITE_AUTH0_DOMAIN=$VITE_AUTH0_DOMAIN"
+        env:
+          VITE_AUTH0_DOMAIN: ${{ vars.VITE_AUTH0_DOMAIN }}
+
       - name: Run build
+        env:
+          VITE_AUTH0_DOMAIN: ${{ vars.VITE_AUTH0_DOMAIN }}
+          VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
         run: npm run build
 
   deploy:
