@@ -130,5 +130,13 @@
     "status": "Active",
     "department": "Design",
     "manager": "John Doe"
+  },
+  {
+    "id": 27,
+    "name": "Alvaro Betancourt",
+    "email": "garox55@gmail.com",
+    "age": 38,
+    "occupation": "Devops",
+    "status": "Active"
   }
 ]
