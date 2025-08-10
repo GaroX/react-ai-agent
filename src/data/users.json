@@ -3,7 +3,7 @@
     "id": 1,
     "name": "John Doe",
     "email": "john.doe@example.com",
-    "age": 33,
+    "age": 30,
     "occupation": "Software Engineer",
     "location": "Boston, MA",
     "joinDate": "2022-01-15",
