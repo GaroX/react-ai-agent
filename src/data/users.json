@@ -118,5 +118,17 @@
     "status": "Active",
     "department": "Marketing",
     "manager": "Michael Johnson"
+  },
+  {
+    "id": 25,
+    "name": "Emily Carter",
+    "email": "emily.carter@example.com",
+    "age": 28,
+    "occupation": "UX Designer",
+    "location": "Austin, TX",
+    "joinDate": "2025-08-10",
+    "status": "Active",
+    "department": "Design",
+    "manager": "John Doe"
   }
 ]
