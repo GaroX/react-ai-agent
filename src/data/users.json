@@ -130,5 +130,17 @@
     "status": "Active",
     "department": "Design",
     "manager": "John Doe"
+  },
+  {
+    "id": 26,
+    "name": "Pepito Lopez",
+    "email": "pepito@email.com",
+    "age": 20,
+    "occupation": "Devops",
+    "location": "San Francisco, CA",
+    "joinDate": "2022-01-15",
+    "status": "Active",
+    "department": "Producto",
+    "manager": "Bob Lee"
   }
 ]
