@@ -118,5 +118,13 @@
     "status": "Active",
     "department": "Marketing",
     "manager": "Michael Johnson"
+  },
+  {
+    "email": "john.doe@example.com",
+    "age": 33,
+    "location": "Boston, MA",
+    "status": "Inactive",
+    "department": "Product",
+    "manager": "Alice Johnson"
   }
 ]
