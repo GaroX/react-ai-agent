@@ -3,13 +3,13 @@
     "id": 1,
     "name": "John Doe",
     "email": "john.doe@example.com",
-    "age": 32,
+    "age": 33,
     "occupation": "Software Engineer",
-    "location": "New York, NY",
+    "location": "Boston, MA",
     "joinDate": "2022-01-15",
-    "status": "Active",
-    "department": "Engineering",
-    "manager": "Jane Smith"
+    "status": "Inactive",
+    "department": "Product",
+    "manager": "Alice Johnson"
   },
   {
     "id": 2,
