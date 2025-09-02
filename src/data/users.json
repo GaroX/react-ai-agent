@@ -133,14 +133,14 @@
   },
   {
     "id": 27,
-    "name": "Alvaro Betancourt",
+    "name": "Alvaro",
     "email": "garox55@gmail.com",
     "age": 38,
-    "occupation": "Devops",
-    "location": "Colombia",
-    "joinDate": "2025-08-10",
-    "status": "Active",
+    "occupation": "Engineering Manager",
+    "location": "Boston, MA",
+    "joinDate": "2022-01-15",
+    "status": "Inactive",
     "department": "Product",
-    "manager": "Bob Lee"
+    "manager": "Alice Johnson"
   }
 ]
